@@ -1,0 +1,81 @@
+//카테고리 section
+.categoryBox{
+  margin: 20px;
+  padding: 30px 15px;
+  border-radius: 20px;
+  background-color: #fff;
+  display: flex;
+  align-items: normal;
+  justify-content: space-between;
+
+  .categoryList{
+    font-size: 3.2rem;
+
+    .categoryAll{
+      display: block;
+      cursor: pointer;
+      border: 1px solid #9BA4B5;
+      color: gray;
+      padding: 7px;
+    }
+  }
+}
+
+//글작성 div
+.createButBox{
+  align-items: center;
+  text-align: right;
+  margin-right: 20px;
+  margin-top: 30px;
+
+  .createBut{
+    cursor: pointer;
+    border: 3px solid #98EECC;
+    background-color: #98EECC;
+    font-weight: 700;
+    border-radius: 15px;
+    padding: 10px 50px;
+  }
+}
+
+//버킷리스트 section
+.mainBox{
+  margin: 20px;
+  padding: 7px 15px;
+  border-radius: 20px;
+  background-color: #fff;
+  font-size: 1.2rem;
+  font-weight: bold;
+  line-height: 1.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .bucketListBox{
+    display: flex;
+
+    .bucketCheck{
+      cursor: pointer;
+      border: 1px solid #010101;
+      width: 1.5rem;
+      height: 1.5rem;
+      margin-right: 1rem;
+    }
+
+    .bucketClear{
+      cursor: pointer;
+      border: 1px solid #010101;
+      width: 1.5rem;
+      height: 1.5rem;
+      text-align: center;
+      margin-right: 1rem;
+    }
+
+    .bucketClearTxt{
+      color: #F15A59;
+      text-decoration: line-through;
+      text-decoration-thickness: 2px;
+    }
+  }
+}
+
