@@ -11,7 +11,8 @@
 .pageBg{
   position: relative;
   max-width: 480px;
-  height: 99vh;
+  min-height: 99vh;
+  height: 100%;
   margin: auto;
   border: 1px solid #9BA4B5;
   background-color: #dfe6ed;
